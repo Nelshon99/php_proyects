@@ -1,0 +1,24 @@
+{
+  "name": "nelshon/excel",
+  "autoload": {
+    "psr-4": {
+      "Nelshon\\Excel\\": "src/",
+      "app\\interfaces\\": "src/interfaces/",
+      "app\\data\\": "src/data/",
+      "app\\business\\": "src/business/",
+      "app\\excel\\": "src/excel"
+    },
+    "files": [
+      "src/config/database.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Nelshon99",
+      "email": "nelson.hernandezbadel@gmail.com"
+    }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^5.2"
+  }
+}
